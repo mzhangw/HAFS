@@ -162,7 +162,7 @@
        pre_rad        = .false.
        ncld           = 5
        imp_physics    = 15         ! F-A MP scheme 
-       RHGRD          = 0.98       ! F-A
+       RHGRD          = 1.0       ! F-A
        spec_adv       = .true.     ! F-A
        icloud         = 3          ! Thompson cloud fraction
        iovr_lw        = 4          ! HWRF RRTMG

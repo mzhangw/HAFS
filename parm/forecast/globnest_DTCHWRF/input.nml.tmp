@@ -73,7 +73,7 @@
        p_fac = 0.1
        k_split  = 1
        n_split  = 7
-       nwat = 6
+       nwat = 4
        na_init = 1
        d_ext = 0.0
        dnats = 1
@@ -100,7 +100,6 @@
        hord_tr = 8
        adjust_dry_mass = .F.
        consv_te = 1.
-       do_sat_adj = .T.
        consv_am = .F.
        fill = .T.
        dwind_2d = .F.
@@ -159,7 +158,7 @@
        pre_rad        = .false.
        ncld           = 5
        imp_physics    = 15         ! F-A MP scheme 
-       RHGRD          = 0.98       ! F-A
+       RHGRD          = 0.975       ! F-A
        spec_adv       = .true.     ! F-A
        icloud         = 3          ! Thompson cloud fraction
        iovr_lw        = 4          ! HWRF RRTMG
