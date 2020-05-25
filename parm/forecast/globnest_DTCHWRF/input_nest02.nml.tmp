@@ -157,7 +157,7 @@
        lradar         = .true.
        avg_max_length = 3600.
        h2o_phys       = .true.
-       fhcyc          = 24.
+       fhcyc          = 0.
        use_ufo        = .true.
        pre_rad        = .false.
        ncld           = 5
@@ -198,11 +198,11 @@
        imfshalcnv     = 2
        imfdeepcnv     = 2
        cdmbgwd        = 3.5, 0.01
-       sfc_z0_type    = 6 
+       sfc_z0_type    = 4
        prslrd0        = 0.
        ivegsrc        = 1
        isot           = 1
-       lsm            = 1
+       lsm            = 4
        iopt_dveg      = 2
        iopt_crs       = 1
        iopt_btr       = 1
